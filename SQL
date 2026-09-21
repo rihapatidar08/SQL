@@ -1,0 +1,17 @@
+//This code is to identify students from Pulaski Academy within a table. This includes student ID, gradelevels, and Advisory classes
+
+CREATE TABLE student(
+Name VARCHAR(30),
+SchoolName VARCHAR (30),
+ID INT,
+GradeLevel INT,
+AdvisoryClass VARCHAR (30)
+);
+
+INSERT INTO student (Name, SchoolName, ID, GradeLevel, AdvisoryClass)
+VALUES ("Riha", "Pulaski Academy", 233291, 12, "Mr. Simmons"), 
+("Jayden", "Pulaski Academy", 456322, 12, "Mr. Webb"), 
+("Charlie", "Pulaski Academy", 345233, 12, "Mr. Simmons"),
+("Arsh", "Pulaski Academy", 532641, 12, "Mrs. Napier")
+
+SELECT * from student
